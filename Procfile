@@ -1,1 +1,1 @@
-worker: /bin/sh -m Tozi
+worker: python3 -m Tozi
