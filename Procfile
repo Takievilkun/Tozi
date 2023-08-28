@@ -1,1 +1,1 @@
-worker: Tozi
+worker: /bin/sh -m Tozi
