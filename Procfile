@@ -1,1 +1,1 @@
-worker: python3 -m Tozi
+worker: python3 -m start.sh
