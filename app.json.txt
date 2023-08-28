@@ -1,0 +1,47 @@
+{
+      "name": "Tozi Robot",
+      "description": "Telegram Group Management Bot.",
+      "logo": "https://telegra.ph/file/28296667cb727005c5f9e.jpg",
+      "keywords": [
+         "telegram",
+         "modular",
+         "group",
+         "manager"
+      ],   
+   "repository": "https://github.com/Takievilkun/Tozi",
+   "stack": "heroku-22",
+ 
+   "env": {
+      "API_ID": {
+         "description": "Get this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+
+      "DATABASE_URL": {
+         "description": "Required for database connections.",
+         "required": true,
+         "value": ""
+      },
+      "SUDO": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "1356469075"
+      },
+      "BOT_TOKEN": {
+         "description": "Get bot token from @BotFather on TG",
+         "required": true,
+         "value": ""
+      },
+      "LOG_CHANNEL": {
+         "description": "ID of Log Channel",
+         "required": true,
+         "value": ""
+      }
+   }
+}
